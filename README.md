@@ -31,11 +31,11 @@ Movies must be placed in a separated folder
 - fanart.jpg
 
 ## Extra command to find and clean up your directory:
-#find files larger then Xsize and group by containing dir  
-- find . -maxdepth 1 -type d | while read -r dir; do printf "%s:\t" "$dir"; find "$dir" -type f -size +100M | wc -l; done
-#find empty diretories  
-- find . -type d -empty -print
-#find and delete empty directories  
+#find files larger then Xsize and group by containing dir
+- find . -maxdepth 1 -type d | while read -r dir; do printf "%s:\t" "$dir"; find "$dir" -type f -size +100M | wc -l; done  
+#find empty diretories
+- find . -type d -empty -print  
+#find and delete empty directories
 - find . -type d -empty -delete
 #find and group by extention  
 -find . -type f | perl -ne 'print $1 if m/\.([^.\/]+)$/' | sort -u
