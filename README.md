@@ -2,8 +2,8 @@
 Python3 script to rename movie files based on NFO data
 
 ## Commands
-- python3 readNFO.py -d `<directory>`
-- python3 readNFO.py -h
+`python3 readNFO.py -d <directory>`
+`python3 readNFO.py -h`
 
 Created for Jellyfin NFO files only support dut and eng srt files  
 I needed to add the quality and codec to the movie file name to to have Radarr read it properly  
@@ -32,12 +32,12 @@ Movies must be placed in a separated folder
 
 ## Extra command to find and clean up your directory:
 #find files larger then Xsize and group by containing dir  
--find . -maxdepth 1 -type d | while read -r dir; do printf "%s:\t" "$dir"; find "$dir" -type f -size +100M | wc -l; done  
+`find . -maxdepth 1 -type d | while read -r dir; do printf "%s:\t" "$dir"; find "$dir" -type f -size +100M | wc -l; done`  
 #find empty diretories  
--find . -type d -empty -print  
+`find . -type d -empty -print`  
 #find and delete empty directories  
--find . -type d -empty -delete  
+`find . -type d -empty -delete`  
 #find and group by extention  
--find . -type f | perl -ne 'print $1 if m/\.([^.\/]+)$/' | sort -u  
+`find . -type f | perl -ne 'print $1 if m/\.([^.\/]+)$/' | sort -u`  
 #find files and group by extension per directory  
--find . -type f -iname '*.nfo' -printf '%h\n'|sort|uniq -c | awk '$1 > 1'  
+`find . -type f -iname '*.nfo' -printf '%h\n'|sort|uniq -c | awk '$1 > 1'`  
