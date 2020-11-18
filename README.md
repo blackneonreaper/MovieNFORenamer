@@ -1,16 +1,14 @@
 ## MovieNFORenamer
 Python script to rename movie files based on NFO data
 
-#Commands
+# Commands
 - readNFO.py -d <directory>
 - readNFO.py -h
-
 
 Created for Jellyfin NFO files only support dut and eng srt files
 I needed to add the quality and codec to the movie file name to to have radarr read it properly
 
-
-#Before:
+# Before:
 - 2 Fast and Furious.dut.srt
 - english.srt
 - 2 Fast 2 Furious-poster.jpg
@@ -19,8 +17,7 @@ I needed to add the quality and codec to the movie file name to to have radarr r
 - poster.jpg
 - fanart.jpg
 
-
-#After:
+# After:
 - 2.Fast.2.Furious.2003.H264.1080p.dut.srt
 - 2.Fast.2.Furious.2003.H264.1080p.eng.srt
 - 2.Fast.2.Furious.2003.H264.1080p-poster.jpg
