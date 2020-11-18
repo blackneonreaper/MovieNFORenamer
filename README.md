@@ -2,7 +2,7 @@
 Python3 script to rename movie files based on NFO data
 
 ## Commands
-`python3 readNFO.py -d <directory>`
+`python3 readNFO.py -d <directory>`  
 `python3 readNFO.py -h`
 
 Created for Jellyfin NFO files only support dut and eng srt files  
