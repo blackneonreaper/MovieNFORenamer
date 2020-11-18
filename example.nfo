@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<movie>
+  <plot>It's a major double-cross when former police officer Brian O'Conner teams up with his ex-con buddy Roman Pearce to transport a shipment of "dirty" money for shady Miami-based import-export dealer Carter Verone. But the guys are actually working with undercover agent Monica Fuentes to bring Verone down.</plot>
+  <outline>How Fast Do You Want It?</outline>
+  <lockdata>false</lockdata>
+  <dateadded>2020-03-25 07:50:09</dateadded>
+  <title>2 Fast 2 Furious</title>
+  <originaltitle>2 Fast 2 Furious</originaltitle>
+  <director>John Singleton</director>
+  <writer>Michael Brandt</writer>
+  <writer>Derek Haas</writer>
+  <writer>Gary Scott Thompson</writer>
+  <credits>Michael Brandt</credits>
+  <credits>Derek Haas</credits>
+  <credits>Gary Scott Thompson</credits>
+  <trailer>plugin://plugin.video.youtube/?action=play_video&amp;videoid=ZZGkV_xWGw4</trailer>
+  <rating>5.9</rating>
+  <year>2003</year>
+  <mpaa>PG-13</mpaa>
+  <collectionnumber>9485</collectionnumber>
+  <imdbid>tt0322259</imdbid>
+  <tmdbid>584</tmdbid>
+  <premiered>2003-06-05</premiered>
+  <releasedate>2003-06-05</releasedate>
+  <criticrating>36</criticrating>
+  <runtime>108</runtime>
+  <tagline>How Fast Do You Want It?</tagline>
+  <country>United States of America</country>
+  <genre>Action</genre>
+  <genre>Crime</genre>
+  <genre>Thriller</genre>
+  <studio>Ardustry Entertainment</studio>
+  <studio>Mikona Productions GmbH &amp; Co. KG</studio>
+  <studio>Original Film</studio>
+  <studio>Universal Pictures</studio>
+  <art>
+    <poster>/data/movies/2 Fast 2 Furious (2003)/poster.jpg</poster>
+    <fanart>/data/movies/2 Fast 2 Furious (2003)/fanart.jpg</fanart>
+  </art>
+  <fileinfo>
+    <streamdetails>
+      <video>
+        <codec>h264</codec>
+        <micodec>h264</micodec>
+        <bitrate>1765496</bitrate>
+        <width>1920</width>
+        <height>816</height>
+        <aspect>2.35:1</aspect>
+        <aspectratio>2.35:1</aspectratio>
+        <framerate>23.976025</framerate>
+        <language>und</language>
+        <scantype>progressive</scantype>
+        <default>True</default>
+        <forced>False</forced>
+        <duration>107</duration>
+        <durationinseconds>6455</durationinseconds>
+      </video>
+      <audio>
+        <codec>aac</codec>
+        <micodec>aac</micodec>
+        <bitrate>92000</bitrate>
+        <language>und</language>
+        <scantype>progressive</scantype>
+        <channels>2</channels>
+        <samplingrate>48000</samplingrate>
+        <default>True</default>
+        <forced>False</forced>
+      </audio>
+      <subtitle>
+        <codec>srt</codec>
+        <micodec>srt</micodec>
+        <language>dut</language>
+        <scantype>progressive</scantype>
+        <default>False</default>
+        <forced>False</forced>
+      </subtitle>
+      <subtitle>
+        <codec>srt</codec>
+        <micodec>srt</micodec>
+        <language>eng</language>
+        <scantype>progressive</scantype>
+        <default>False</default>
+        <forced>False</forced>
+      </subtitle>
+    </streamdetails>
+  </fileinfo>
+</movie>
