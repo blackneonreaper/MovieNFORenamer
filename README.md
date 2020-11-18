@@ -1,9 +1,9 @@
 # MovieNFORenamer
-Python script to rename movie files based on NFO data
+Python3 script to rename movie files based on NFO data
 
 ## Commands
-- readNFO.py -d `<directory>`
-- readNFO.py -h
+- python3 readNFO.py -d `<directory>`
+- python3 readNFO.py -h
 
 Created for Jellyfin NFO files only support dut and eng srt files  
 I needed to add the quality and codec to the movie file name to to have Radarr read it properly  
